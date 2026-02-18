@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body{
+  font-family: "Ubuntu", sans-serif;
+}
+
+
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* header  */
+
+/* header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1000;
+
+} */
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18.5px 107px;
+
+}
+
+.header-nav{
+    display: flex;
+    gap: 20px;
+}
+
+
+.header-nav a{
+    font-size: 24px;
+    font-weight: 500;
+    color: #957554;
+    padding: 3px 10px;
+    transition: .3s;
+}
+
+.header-nav a:hover{
+    transform: translateY(4px);
+}
+
+
+
+
+/* welcome section  */
+.welcome-section{
+    margin-top: 138px;
+    background: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    margin-bottom: 80px;
+       
+}
+
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 242px;
+    padding-bottom: 245px;
+
+}
+
+
+.welcome h1{
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 48px;
+}
+
+
+
+.welcome p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 53px;
+    color: white;
+}
+
+
+
+.welcome a{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    background-color: #DFAA5B;
+    padding: 25px 133px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+
+.welcome a:hover{
+    color: black;
+    transform: scale(1.1);
+}
+
+
+
+/* rooms rates  */
+
+.rooms-rates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 122px;
+}
+
+.rooms-rates-title h1{
+    font-size: 45px;
+    font-weight: 500;
+    color: #957554;
+}
+
+
+.rooms-rates-button h2{
+    font-size: 45px;
+    font-weight: 500;
+    color: #957554;
+}
+
+
+
+.rooms-rates-button a{
+    font-size: 24px;
+    color: white;
+    background-color: #DFAA5B;
+    padding: 24px 157px;
+    border-radius: 10px;
+}
+
+
+.rooms-rates-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+}
+
+
+.rooms-rates-cards{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.rooms-rates-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    border-radius: 10px;
+    padding: 302px 125px 57px 125px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+.rooms-rates-card:hover{
+    transform: scale(1.1);
+}
+
+
+.card1{
+    background: url(/assets/card1.png);
+}
+.card2{
+    background: url(/assets/card2.png);
+}
+
+.card3{
+    background: url(/assets/card3.png);
+}
+
+.card4{
+    background: url(/assets/card4.png);
+}
+
+
+
+
+.rooms-rates-card h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+
+.rooms-rates-card a{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    padding: 24px 52px;
+    border-radius: 10px;
+    background-color: #DFAA5B;
+}
+
+
+
+
+/* footer  */
+
+
+footer{
+    background-color: black;
+}
+
+
+.footer{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 51px 123px 159px 55px;
+}
+
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.footer-nav a{
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    transition: .3s;
+}
+
+
+.footer-nav a:hover{
+    transform: translateX(10px);
+}
+
+
+.about-website{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+
+.about-website h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+
+.about-website a{
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+    transition: .3s;
+}
+
+
+.about-website a:hover{
+    transform: translateX(-10px);
+    color: 957554;
+}
+
+
+
+
+header{
+    background-color: red;
+}
+
+
+
+.headerx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    box-shadow: 3px 3px 3px black;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo a{
+    font-size: 50px;
+}
+
+
+.nav{
+    display: flex;
+    gap: 30px;
+}
+
+.nav a{
+    font-size: 30px;
+}
+
+
+
+
+.elements{
+    gap: 15px;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+
+}

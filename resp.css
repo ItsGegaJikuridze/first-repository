@@ -1,0 +1,50 @@
+@media (max-width: 1070px) {
+  .header-nav {
+    gap: 10px;
+  }
+
+  .header-nav a {
+    font-size: 20px;
+  }
+
+  .welcome h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 920px) {
+  .header {
+    padding: 18.5px 50px;
+  }
+
+  .footer {
+    padding: 51px 100px 159px 55px;
+  }
+
+  .footer-nav a {
+    font-size: 18px;
+  }
+
+  .about-website h3 {
+    font-size: 20px;
+ 
+  }
+
+  .about-website a {
+    font-size: 20px;
+  
+  }
+}
+
+
+
+@media(max-width:785px){
+    .header-nav{
+        flex-direction: column;
+    }
+
+
+    .footer-logo{
+        display: none;
+    }
+}
